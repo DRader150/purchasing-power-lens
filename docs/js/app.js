@@ -104,7 +104,26 @@
     while (charts.length) charts.pop().destroy();
   }
 
-  function baseOptions(log) {
+  function xExtent(seriesList) {
+    let min = Infinity;
+    let max = -Infinity;
+    seriesList.forEach((series) => {
+      series.points.forEach(([label]) => {
+        if (!label) return;
+        const x = monthNumber(label);
+        if (x < min) min = x;
+        if (x > max) max = x;
+      });
+    });
+    if (!Number.isFinite(min) || !Number.isFinite(max)) return { min: 1960, max: 2026 };
+    if (max - min < 0.25) {
+      min -= 0.5;
+      max += 0.5;
+    }
+    return { min, max };
+  }
+
+  function baseOptions(log, xMin, xMax) {
     return {
       responsive: true,
       maintainAspectRatio: false,
@@ -129,11 +148,15 @@
       scales: {
         x: {
           type: "linear",
+          min: xMin,
+          max: xMax,
           ticks: {
             maxTicksLimit: 6,
             color: "#b7ad9c",
             callback(value) {
-              return String(Math.floor(value + 1e-6));
+              const year = Math.floor(value + 1e-6);
+              if (year < Math.floor(xMin) || year > Math.ceil(xMax)) return "";
+              return String(year);
             },
           },
           grid: { color: "rgba(243,239,230,0.06)" },
@@ -164,10 +187,11 @@
       tension: 0,
       spanGaps: false,
     }));
+    const extent = xExtent(seriesList);
     const chart = new Chart(canvas, {
       type: "line",
       data: { datasets },
-      options: baseOptions(log),
+      options: baseOptions(log, extent.min, extent.max),
     });
     charts.push(chart);
     return chart;
