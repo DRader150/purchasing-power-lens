@@ -8,6 +8,19 @@
   <meta name="theme-color" content="#12110e">
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='12' fill='none' stroke='%23e4c27a' stroke-width='3'/%3E%3C/svg%3E">
   <link rel="stylesheet" href="css/styles.css">
+<style>
+.series{display:flex;flex-wrap:wrap;gap:8px;margin:18px 0 6px;font-family:'IBM Plex Mono',ui-monospace,monospace}
+.series-label{width:100%;font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:#b7ad9c;margin-bottom:2px}
+.series-item{flex:1 1 180px;display:block;padding:9px 12px;border:1px solid #3a3428;border-radius:2px;text-decoration:none;color:#b7ad9c;font-size:12.5px;line-height:1.4}
+.series-item b{color:#e4c27a;margin-right:4px}
+.series-item small{display:block;font-size:10.5px;opacity:.8;margin-top:2px}
+a.series-item:hover{border-color:#e4c27a;color:inherit}
+.series-item.here{border-color:#e4c27a;color:inherit}
+.next-box{margin:28px 0 22px;padding:16px 18px;border:1px solid #e4c27a;border-radius:2px}
+.next-box .nb-tag{font-family:'IBM Plex Mono',ui-monospace,monospace;font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:#e4c27a;margin-bottom:6px}
+.next-box a{font-size:19px;font-weight:600;color:inherit}
+.next-box p{margin:6px 0 0;font-size:15px;opacity:.85}
+</style>
 </head>
 <body>
   <a class="skip" href="#life">Skip to charts</a>
@@ -18,7 +31,9 @@
     <p class="links">
       <a href="https://drader150.github.io/The-Debt-Based-Monetary-System-for-Everyday-People/">Read the Monetary Explainer</a>
       <a href="https://github.com/DRader150/The-Debt-Based-Monetary-System-for-Everyday-People">Explainer source</a>
+      <a href="https://drader150.github.io/Monetary-Endgame/">Where this leads: Monetary Endgame</a>
     </p>
+    <div class="series" role="navigation" aria-label="Series"><div class="series-label">A three-part series · read in order, then loop back</div><a class="series-item" href="https://drader150.github.io/The-Debt-Based-Monetary-System-for-Everyday-People/"><b>1</b> The System You're Actually Living In<small>How it works</small></a><span class="series-item here" aria-current="page"><b>2</b> Purchasing Power Lens<small>What it's already done · you are here</small></span><a class="series-item" href="https://drader150.github.io/Monetary-Endgame/"><b>3</b> Monetary Endgame<small>Where it leads</small></a></div>
     <p class="refreshed" id="refreshed">Loading data…</p>
   </header>
 
@@ -67,6 +82,7 @@
   </main>
 
   <footer class="colophon">
+    <div class="next-box"><div class="nb-tag">Next in the series · Part 3</div><a href="https://drader150.github.io/Monetary-Endgame/">Monetary Endgame →</a><p>You've seen how it works and what it has done to prices. Part 3 asks where it's heading, and which signals would tell us.</p></div>
     <p>Purchasing Power Lens is the charts companion to Daniel Rader’s Monetary Explainer, <a href="https://drader150.github.io/The-Debt-Based-Monetary-System-for-Everyday-People/">The Debt-Based Monetary System for Everyday People</a>. The explainer is the prose. This page is only the pictures.</p>
     <p>
       <a href="https://github.com/DRader150/The-Debt-Based-Monetary-System-for-Everyday-People">Explainer on GitHub</a>
