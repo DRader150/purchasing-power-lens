@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T22:16:49Z",
+  "generatedAt": "2026-11-16T21:57:45Z",
   "siteName": "Purchasing Power Lens",
   "explainerUrl": "https://drader150.github.io/The-Debt-Based-Monetary-System-for-Everyday-People/",
   "explainerRepo": "https://github.com/DRader150/The-Debt-Based-Monetary-System-for-Everyday-People",
@@ -3223,7 +3223,7 @@
       ],
       [
         "2026-11",
-        4149.5
+        3859.3
       ]
     ]
   },
@@ -3807,15 +3807,15 @@
       ],
       [
         "2026-11",
-        76934.32875
+        73621.602
       ]
     ]
   },
   "foodBasket": {
     "kcalPerWeek": 13765.2,
     "kcalPerDay": 1966.5,
-    "latestMonth": "2026-09",
-    "latestCost": 29.01,
+    "latestMonth": "2026-10",
+    "latestCost": 29.38,
     "recipe": [
       {
         "name": "Dried beans, any type",
@@ -3825,8 +3825,8 @@
         "qtyUnit": "lb",
         "kcalPerUnit": 1546.78,
         "energyNote": "USDA black beans, mature seeds, raw, 341 kcal/100 g, as a stand-in for the BLS any-type dried-bean price. Other dry beans are about 337\u2013347 kcal/100 g.",
-        "latestPrice": 1.669,
-        "latestLineCost": 3.338
+        "latestPrice": 1.68,
+        "latestLineCost": 3.36
       },
       {
         "name": "White all-purpose flour",
@@ -3836,8 +3836,8 @@
         "qtyUnit": "lb",
         "kcalPerUnit": 1651.1,
         "energyNote": "USDA wheat flour, all-purpose, enriched, 364 kcal/100 g.",
-        "latestPrice": 0.545,
-        "latestLineCost": 0.545
+        "latestPrice": 0.536,
+        "latestLineCost": 0.536
       },
       {
         "name": "White pan bread",
@@ -3847,8 +3847,8 @@
         "qtyUnit": "lb",
         "kcalPerUnit": 1206.58,
         "energyNote": "USDA white bread, commercially prepared, 266 kcal/100 g.",
-        "latestPrice": 1.83,
-        "latestLineCost": 1.83
+        "latestPrice": 1.861,
+        "latestLineCost": 1.861
       },
       {
         "name": "Dry spaghetti and macaroni",
@@ -3858,8 +3858,8 @@
         "qtyUnit": "lb",
         "kcalPerUnit": 1682.86,
         "energyNote": "USDA dry enriched pasta, 371 kcal/100 g.",
-        "latestPrice": 1.375,
-        "latestLineCost": 0.6875
+        "latestPrice": 1.384,
+        "latestLineCost": 0.692
       },
       {
         "name": "Eggs, grade A large",
@@ -3869,8 +3869,8 @@
         "qtyUnit": "dozen",
         "kcalPerUnit": 858.0,
         "energyNote": "USDA whole raw egg, 143 kcal/100 g, times a 50 g large egg, times 12.",
-        "latestPrice": 2.272,
-        "latestLineCost": 2.272
+        "latestPrice": 2.32,
+        "latestLineCost": 2.32
       },
       {
         "name": "Ground chuck, 100% beef",
@@ -3880,8 +3880,8 @@
         "qtyUnit": "lb",
         "kcalPerUnit": 1152.14,
         "energyNote": "USDA raw ground beef, 80% lean / 20% fat, 254 kcal/100 g, used as a proxy for BLS ground chuck.",
-        "latestPrice": 6.483,
-        "latestLineCost": 6.483
+        "latestPrice": 6.733,
+        "latestLineCost": 6.733
       },
       {
         "name": "Whole fresh chicken",
@@ -3891,8 +3891,8 @@
         "qtyUnit": "lb",
         "kcalPerUnit": 975.24,
         "energyNote": "USDA broiler meat and skin, raw, 215 kcal/100 g (about NDB 171447). Applied to purchase weight; bone is not removed, so edible kcal are lower.",
-        "latestPrice": 2.064,
-        "latestLineCost": 4.128
+        "latestPrice": 2.026,
+        "latestLineCost": 4.052
       },
       {
         "name": "Sliced bacon",
@@ -3902,8 +3902,8 @@
         "qtyUnit": "lb",
         "kcalPerUnit": 1782.65,
         "energyNote": "USDA pork, cured, bacon, unprepared, 393 kcal/100 g (FDC 168277).",
-        "latestPrice": 6.756,
-        "latestLineCost": 3.378
+        "latestPrice": 6.686,
+        "latestLineCost": 3.343
       },
       {
         "name": "Bananas",
@@ -3913,8 +3913,8 @@
         "qtyUnit": "lb",
         "kcalPerUnit": 403.7,
         "energyNote": "USDA bananas, raw, 89 kcal/100 g.",
-        "latestPrice": 0.656,
-        "latestLineCost": 1.312
+        "latestPrice": 0.655,
+        "latestLineCost": 1.31
       },
       {
         "name": "Field-grown tomatoes",
@@ -3924,8 +3924,8 @@
         "qtyUnit": "lb",
         "kcalPerUnit": 81.65,
         "energyNote": "USDA red tomatoes, raw, 18 kcal/100 g.",
-        "latestPrice": 1.992,
-        "latestLineCost": 2.988
+        "latestPrice": 2.084,
+        "latestLineCost": 3.126
       },
       {
         "name": "Whole milk",
@@ -3935,8 +3935,8 @@
         "qtyUnit": "gallon",
         "kcalPerUnit": 2381.44,
         "energyNote": "USDA whole milk, 3.25% fat, 61 kcal/100 g. One cup taken as 244 g, 16 cups in a gallon.",
-        "latestPrice": 4.106,
-        "latestLineCost": 2.053
+        "latestPrice": 4.101,
+        "latestLineCost": 2.0505
       }
     ]
   },
@@ -5935,7 +5935,7 @@
         ],
         [
           "2026-11",
-          99.85
+          93.68625
         ]
       ]
     },
@@ -7691,7 +7691,7 @@
         ],
         [
           "2026-11",
-          4.153
+          4.074
         ]
       ]
     },
@@ -9275,7 +9275,7 @@
         ],
         [
           "2026-11",
-          6.292
+          6.2095
         ]
       ]
     },
@@ -11580,6 +11580,10 @@
         [
           "2026-09",
           0.196
+        ],
+        [
+          "2026-10",
+          0.19
         ]
       ]
     },
@@ -12972,6 +12976,10 @@
         [
           "2026-09",
           335.364
+        ],
+        [
+          "2026-10",
+          337.412
         ]
       ]
     },
@@ -14464,6 +14472,10 @@
         [
           "2026-09",
           29.0145
+        ],
+        [
+          "2026-10",
+          29.3835
         ]
       ]
     },
@@ -18016,6 +18028,10 @@
         [
           "2026-09",
           179.615
+        ],
+        [
+          "2026-10",
+          179.924
         ]
       ]
     },
@@ -19980,6 +19996,10 @@
         [
           "2026-09",
           95.693
+        ],
+        [
+          "2026-10",
+          98.893
         ]
       ]
     }
@@ -25646,7 +25666,7 @@
             ],
             [
               "2026-11",
-              1370.421744
+              1274.579758
             ]
           ]
         },
@@ -27651,7 +27671,7 @@
             ],
             [
               "2026-11",
-              4203.050568
+              4128.814587
             ]
           ]
         }
@@ -28244,7 +28264,7 @@
             ],
             [
               "2026-11",
-              76934.32875
+              73621.602
             ]
           ]
         }
@@ -29915,6 +29935,10 @@
             [
               "2026-09",
               0.00693
+            ],
+            [
+              "2026-10",
+              0.007536
             ]
           ]
         }
@@ -31675,7 +31699,7 @@
             ],
             [
               "2026-11",
-              0.041592
+              0.043486
             ]
           ]
         },
@@ -39092,7 +39116,7 @@
             ],
             [
               "2026-11",
-              0.549607
+              0.52036
             ]
           ]
         }
@@ -41402,6 +41426,10 @@
             [
               "2026-09",
               166.479592
+            ],
+            [
+              "2026-10",
+              172.368421
             ]
           ]
         }
@@ -45003,6 +45031,10 @@
             [
               "2026-09",
               313.407369
+            ],
+            [
+              "2026-10",
+              316.364381
             ]
           ]
         },
@@ -48592,6 +48624,10 @@
             [
               "2026-09",
               343.511747
+            ],
+            [
+              "2026-10",
+              344.715015
             ]
           ]
         }
